@@ -1,0 +1,96 @@
+Agricultor
+Alcalde
+Alfarero
+Amanuense
+Aprendiz
+Aprendiz De Historiador
+Aprendiz De Sanador
+Aprendiz De Vinatero
+Arpista
+Arquero
+Astrónomo
+Bibliotecario
+Bufón
+Buhonero
+Caballero
+Campeón
+Cantante
+Cantero
+Capitán
+Carcelero
+Carpintero
+Carpintero De Barcos
+Cazador
+Cazador
+Cocinero
+Comandante
+Comediante
+Comerciante
+Compositor
+Consejero Jefe
+Cornetín
+Criado
+Cuentacuentos
+Curandero
+Diplomático
+Doncella
+Embajador
+Escolta
+Escriba
+Escudero
+Escultor
+Esgrimista
+Espadachín
+Fabricante De Flechas
+Fabricante De Instrumentos
+Filósofo
+Flautista
+Geógrafo
+Grumete
+Guardabosques
+Heraldo
+Heraldo Correo
+Herborista
+Héroe
+Herrero
+Historiador
+Hortelano
+Jardinero
+Jefe
+Joker
+Joyero
+Juez
+Juglar
+Lacayo
+Lamparero
+Lancero
+Leñador
+Leñador
+Maestro Artesano
+Maestro Cantor
+Maestro De Guerreros
+Maestro De Guerreros
+MarineroMatemático
+Mayordomo
+Minero
+Montañés
+Narrador
+Orfebre
+Palafrenero
+Panadero
+Pastor
+Peregrino
+Pescador
+Platero
+Poeta
+Protector
+Sabio
+Sanador
+Sastre
+Secretario
+Tejedor
+Trovador
+Vagabundo
+Veterinario
+Vikingo
+Vinatero

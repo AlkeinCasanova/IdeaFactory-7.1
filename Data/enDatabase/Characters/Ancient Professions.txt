@@ -1,0 +1,96 @@
+Amanuensis
+Ambassador
+Apprentice
+Archer
+Astronomer
+Baker
+Boy
+Butler
+Captain
+Carpenter
+Champion
+Chief
+Chief Counsel
+Comedian
+Commander
+Composer
+Cook
+Cornet
+Diplomat
+Escort
+Farmer
+Fencer
+Fisherman
+Flutist
+Gardener
+Gardener
+Gentleman
+Geographer
+Goldsmith
+Groom
+Harpist
+Healer
+Healer's Apprentice
+Herald
+Herald Mail
+Herbalist
+Hero
+Highlander
+Historian
+Historian Apprentice
+Hunter
+Hunter
+Instrument Manufacturer
+Jailer
+Jester
+Jeweler
+Joker
+Judge
+Lackey
+Lamparero
+Lancer
+Librarian
+Maid
+Manufacturer Of Arrows
+Marineromatemático
+Master Craftsman
+Master Of Warriors
+Master Of Warriors
+Mayor
+Merchant
+Miner
+Minstrel
+Narrator
+Pastor
+Peddler
+Philosopher
+Pilgrim
+Poet
+Potter
+Protective
+Quack
+Ranger
+Scribe
+Sculptor
+Secretary
+Servant
+Shipwright
+Silversmith
+Singer
+Smith
+Songmaster
+Squire
+Stonecutter
+Storytelling
+Swordsman
+Tailor
+Troubadour
+Veterinarian
+Viking
+Vintner
+Vintner's Apprentice
+Wanderer
+Weaver
+Wise
+Woodcutter
+Woodcutter

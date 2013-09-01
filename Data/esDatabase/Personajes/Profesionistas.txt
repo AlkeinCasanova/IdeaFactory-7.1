@@ -1,0 +1,40 @@
+Abogado
+Actor
+Aeronauta
+Aeronáutico
+Agricultor
+Arquitecto
+Astronauta
+Atleta
+Bombero
+Cantante
+Chef
+Ciclista
+Cirujano
+Cómico
+Conductor
+Controlador Aéreo
+Dentista
+Director De Cine
+Diseñador De Moda
+Economista
+Ejecutivo
+Empresario
+Enfermera
+Escritor
+Físico
+Granjero
+Informático
+Informático
+Ing. Industrial
+Ingeniero De Caminos
+Inventor
+Juez
+Modelo
+Motociclista
+Músico
+Periodista
+Piloto
+Profesor
+Psicólogo
+Veterinario

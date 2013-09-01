@@ -1,0 +1,45 @@
+Bakery
+Bakery
+Baseball
+Bookstore
+Bus
+Car
+Carnage
+Cinema
+Concert
+Confectionery
+Dairy
+Dry Cleaner
+Fish Market
+Florist
+Football
+Game
+Gelato
+Greengrocer
+Hardware Store
+Hockey
+Home
+Laundry
+Library
+Market
+Meter
+Motorcycle
+Network
+Office
+Pharmacy
+Plane
+Pool
+Pork Butcher's
+Restaurant
+Ropería
+Shop
+Shop
+Skis
+Stationery
+Supermarket
+Sweets
+Taxi
+Tennis
+Theater
+Train
+Volleyball

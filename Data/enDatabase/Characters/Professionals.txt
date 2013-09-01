@@ -1,0 +1,40 @@
+Actor
+Aeronaut
+Aeronautical
+Air Controller
+Architect
+Astronaut
+Athlete
+Chef
+Comic
+Computer
+Computer
+Cyclist
+Dentist
+Driver
+Economist
+Entrepreneur
+Executive
+Farmer
+Farmer
+Fashion Designer
+Film Director
+Firefighter
+Industrial Engineer
+Inventor
+Journalist
+Judge
+Lawyer
+Model
+Motorcyclist
+Musician
+Nurse
+Physical
+Pilot
+Psychologist
+Roads Engineer
+Singer
+Surgeon
+Teacher
+Veterinarian
+Writer

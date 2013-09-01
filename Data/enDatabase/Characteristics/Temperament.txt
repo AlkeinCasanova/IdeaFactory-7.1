@@ -1,0 +1,4 @@
+Choleric
+Melancholic
+Phlegmatic
+Sanguine
