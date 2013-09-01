@@ -27,6 +27,7 @@
 		C3F6F3CE17D3148B0056301F /* SelecterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F6F3BD17D3148B0056301F /* SelecterCell.m */; };
 		C3F6F3CF17D3148B0056301F /* SelecterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F6F3BF17D3148B0056301F /* SelecterController.m */; };
 		C3F6F3D017D3148B0056301F /* StartController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F6F3C117D3148B0056301F /* StartController.m */; };
+		C3F6F3D217D32E890056301F /* Data in Resources */ = {isa = PBXBuildFile; fileRef = C3F6F3D117D32E890056301F /* Data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		C3F6F3BF17D3148B0056301F /* SelecterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelecterController.m; sourceTree = "<group>"; };
 		C3F6F3C017D3148B0056301F /* StartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartController.h; sourceTree = "<group>"; };
 		C3F6F3C117D3148B0056301F /* StartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartController.m; sourceTree = "<group>"; };
+		C3F6F3D117D32E890056301F /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		C30861F717236B3500BDC78D = {
 			isa = PBXGroup;
 			children = (
+				C3F6F3D117D32E890056301F /* Data */,
 				C3F6F39917D305590056301F /* newStory.storyboard */,
 				C3F6F39F17D3148B0056301F /* Classes */,
 				C308620217236B3500BDC78D /* Frameworks */,
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F6F3D217D32E890056301F /* Data in Resources */,
 				C3F6F39A17D305590056301F /* newStory.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
