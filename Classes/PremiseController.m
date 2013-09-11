@@ -75,6 +75,9 @@
 
 #pragma mark -
 #pragma mark - Load
+-(void)cancelSegue:(UIStoryboardSegue *)sender
+{
+}
 
 -(void)pragmatisim
 {
@@ -222,8 +225,7 @@
 
         isMakingANewCell =YES;
         [self makeCellChangeToState:premiseIdea atPath:path];
-    }
-    
+    }    
 }
 //FIXME
 - (void)randomizeWordsAtIndexPath:(NSIndexPath *)indexPath
@@ -460,8 +462,8 @@
         //celda fantasma
         UITableViewCell *phatnomCell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"phantomCell"];
         phatnomCell.selectionStyle = UITableViewCellSelectionStyleNone;
-        phatnomCell.textLabel.text = @"Something";
-        phatnomCell.textLabel.textColor = [UIColor blackColor];
+//        phatnomCell.textLabel.text = @"Something";
+        phatnomCell.backgroundColor = [UIColor clearColor];
         return phatnomCell;
 
     }

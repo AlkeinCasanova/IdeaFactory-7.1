@@ -256,6 +256,7 @@
 
 
         NSArray* kind = currentBranch[i];
+        
         id isSelectedList = kind[2];
 
         if (![kind[0]boolValue] )

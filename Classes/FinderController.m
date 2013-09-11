@@ -38,7 +38,10 @@
 
 @implementation FinderController
 
-
+-(void)cancel:(UIStoryboardSegue *)sender
+{
+    
+}
 
 #pragma mark INITAL SETUP
 

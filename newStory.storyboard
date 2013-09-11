@@ -155,7 +155,6 @@
         <!--Premise Controller - Factory-->
         <scene sceneID="Hrv-Uv-HJd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EdC-Hq-iMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="factoryController" automaticallyAdjustsScrollViewInsets="NO" id="J1m-jl-TsV" customClass="PremiseController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EDk-wl-wDB">
                         <rect key="frame" x="0.0" y="64" width="320" height="460"/>
@@ -184,28 +183,33 @@
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="m9Q-FA-b4j"/>
                         <barButtonItem systemItem="add" id="Kfx-sY-aQ7">
                             <connections>
                                 <action selector="add:" destination="J1m-jl-TsV" id="Cya-06-pJ9"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="Fe5-Vo-iDR"/>
                         <barButtonItem systemItem="organize" id="1aW-WC-jVk"/>
-                        <barButtonItem systemItem="compose" id="Jiy-me-aXS">
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="K2e-9e-4y4"/>
+                        <barButtonItem systemItem="action" id="Jiy-me-aXS">
                             <connections>
                                 <action selector="shareIdea:" destination="J1m-jl-TsV" id="otQ-GK-ANQ"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="5Kb-XU-Du8"/>
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="Fub-je-x92"/>
                         <barButtonItem title="Idea" id="DDC-OY-a7A">
                             <connections>
                                 <action selector="idea:" destination="J1m-jl-TsV" id="yn7-PR-pp8"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="SUp-ym-bce"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="Factory" id="p04-ge-Pe7"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EdC-Hq-iMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-489" y="748"/>
+            <point key="canvasLocation" x="-498" y="856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lc5-3t-VTa">
@@ -675,7 +679,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sce-QG-Ghe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-18" y="839"/>
+            <point key="canvasLocation" x="43" y="839"/>
         </scene>
     </scenes>
     <resources>
