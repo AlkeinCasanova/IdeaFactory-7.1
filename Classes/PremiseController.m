@@ -125,6 +125,12 @@
 
     [super viewDidLoad];
     [self pragmatisim];
+
+    UIBarButtonItem *editButton = self.editButtonItem;
+    [editButton setTarget:self];
+    [editButton setAction:@selector(toggleEdit)];
+    self.navigationItem.rightBarButtonItem = editButton;
+    
     //Lugat donde preparar los archivos y/o crearlos
     [self URLsetUp];
     
@@ -143,6 +149,24 @@
     [self maxUpdate];
 
 
+}
+- (IBAction)toggleEdit {
+    if (isThereAnActiveCell) {
+        [self shouldChangeToPresentationStateCellAtIndex:activeCell];
+    }
+    BOOL editing = !self.tableView.editing;
+    self.navigationItem.leftBarButtonItem.enabled = !editing;
+    if (editing) {
+        self.navigationItem.rightBarButtonItem.title = NSLocalizedString(@"Done", @"Done");
+        //Added in the edition for this button has the same color of the UIBarButtonSystemItemDone
+        self.navigationItem.rightBarButtonItem.style = UIBarButtonItemStyleDone;
+    }
+    else{
+        self.navigationItem.rightBarButtonItem.title = NSLocalizedString(@"Edit", @"Edit");
+        //Added in the edition for this button has the same color of the UIBarButtonSystemItemDone
+        self.navigationItem.rightBarButtonItem.style = UIBarButtonItemStylePlain;
+    }
+    [self.tableView setEditing:editing animated:YES];
 }
 -(void)maxUpdate
 {
@@ -201,8 +225,14 @@
     [self presentViewController:listNav animated:YES completion:^{}];
 }
 - (IBAction)add:(id)sender {
+    if (self.tableView.editing == YES) {
+        [self toggleEdit];
+
+    }
     [self maxUpdate];
     if (factoryKeys.count <kTotalCellsAllowed) {
+
+
 
         NSIndexPath * path = [NSIndexPath  indexPathForItem:0 inSection:0];
         if (factoryKeys.count >1)
@@ -287,42 +317,7 @@
     }
 }
 - (IBAction)edit:(MasterButton*)sender {
-    switch (sender.currentState) {
 
-        case masterEdit:
-
-            if (factoryKeys.count == 0)
-                break;
-            for (PremiseCell * cell in [_premiseTable visibleCells]) {
-                if (cell.currentState == premiseRandomizer) {
-                    
-                    
-                    return;
-                }
-            }
-
-
-
-            [self enableBottomMenu:NO];
-            [sender changeMasterStateTo:masterDone];
-            break;
-        case masterDone:
-
-            [_premiseTable setEditing:NO animated:YES];
-
-            [self enableBottomMenu:YES];
-            [sender changeMasterStateTo:masterEdit];
-
-            break;
-        case masterSave:
-
-            [self shouldChangeToPresentationStateCellAtIndex:activeCell];
-
-            
-            break;
-        default:
-            break;
-    }
 }
 - (IBAction)cancel:(id)sender {
     if (isMakingANewCell)
@@ -334,6 +329,48 @@
     [self makeCellChangeToState:premiseCancel atPath:activeCell];
 }
 //FIXME
+- (IBAction)barControlButton:(id)sender {
+    
+
+//    switch (sender.currentState) {
+//
+//        case masterEdit:
+//
+//            if (factoryKeys.count == 0)
+//                break;
+//            for (PremiseCell * cell in [_premiseTable visibleCells]) {
+//                if (cell.currentState == premiseRandomizer) {
+//
+//
+//                    return;
+//                }
+//            }
+//
+//
+//
+//            [self enableBottomMenu:NO];
+//            [sender changeMasterStateTo:masterDone];
+//            break;
+//        case masterDone:
+//
+//            [_premiseTable setEditing:NO animated:YES];
+//
+//            [self enableBottomMenu:YES];
+//            [sender changeMasterStateTo:masterEdit];
+//
+//            break;
+//        case masterSave:
+//
+//            [self shouldChangeToPresentationStateCellAtIndex:activeCell];
+//            
+//            
+//            break;
+//        default:
+//            break;
+//    }
+
+}
+
 - (IBAction)shareIdea:(id)sender {
 
     NSArray *cells = [_premiseTable visibleCells];
@@ -667,6 +704,9 @@
 }
 -(void)shouldChangeToPresentationStateCellAtIndex:(NSIndexPath*)indexPath
 {
+
+
+
     PremiseCell * cell = (PremiseCell*)[_premiseTable cellForRowAtIndexPath:activeCell];
     NSString * cellName = cell.leftText.text;
 
@@ -703,6 +743,7 @@
     [self.masterButton changeMasterStateTo:masterDone];
     [self edit:self.masterButton];
     [self saveData];
+    
 
 
 
@@ -806,6 +847,9 @@
 #pragma mark 
 -(void)makeCellChangeToState:(enum premiseState)state atPath:(NSIndexPath*)indexPath
 {
+
+
+
     PremiseCell*cell = (id)[_premiseTable cellForRowAtIndexPath:indexPath];
     if (!(cell && [cell respondsToSelector:@selector(changePremiseCellStateTo:)]))
         return;
@@ -833,6 +877,7 @@
 
     }
 //    [self enableBottomMenu:!active];
+    self.navigationItem.rightBarButtonItem.enabled = !active;
     [cell setCellIsActive:active];
     [self showCancelButton:active];
     [self selecterContainerShow:active];
@@ -870,4 +915,7 @@
     
 }
 
+- (IBAction)folder:(id)sender {
+    [self viewLists:sender];
+}
 @end

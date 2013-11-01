@@ -35,12 +35,17 @@
 @property (weak, nonatomic) IBOutlet UIButton *cancelButtonOut;
 @property (weak, nonatomic) IBOutlet UIButton *selecterButton;
 @property (weak, nonatomic) IBOutlet UIButton *ideaButotn;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *barButtonControl;
+
+- (IBAction)folder:(id)sender;
 
 @property (nonatomic) SelecterController* selecterController;
+- (IBAction)barControlButton:(id)sender;
 
 - (IBAction)shareIdea:(id)sender;
 - (IBAction)add:(id)sender;
-- (IBAction)edit:(id)sender;
 - (IBAction)cancel:(id)sender;
 - (IBAction)selecterButtonPressed:(id)sender;
 - (IBAction)settingPressed:(id)sender;

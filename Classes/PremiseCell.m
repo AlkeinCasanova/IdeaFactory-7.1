@@ -10,7 +10,7 @@
 #import "AlertStrings.h"
 #import "BWColors.h"
 
-#define kRightViewHidden 460
+#define kRightViewHidden 660
 #define kRightViewShow 260
 
 #define kFlyButtonSize 40
@@ -19,7 +19,7 @@
 #define kFlyingCenter 220
 #define kFlyButtonRight 220
 #define kFlyButtonMiddle 120
-#define kFlyButtonDelete 400
+#define kFlyButtonDelete 420
 #define kFlyButtonHiddenTOLEFT -100
 
 #define kFlyButtonMiddleText @">"
@@ -466,7 +466,8 @@
     magicButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [magicButton setFrame:CGRectMake(kFlyingCenter, 0,kFlyButtonSize,kFlyButtonSize)];
     
-    [magicButton setBackgroundImage:[UIImage imageNamed:@"buttonDisc"] forState:UIControlStateNormal ];
+//    [magicButton setBackgroundImage:[UIImage imageNamed:@"buttonDisc"] forState:UIControlStateNormal ];
+    [magicButton setBackgroundColor:hexColor(kColorPWeak)];
     magicButton.titleLabel.font = [UIFont fontWithName:kStringFont  size:30];
     [magicButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
 

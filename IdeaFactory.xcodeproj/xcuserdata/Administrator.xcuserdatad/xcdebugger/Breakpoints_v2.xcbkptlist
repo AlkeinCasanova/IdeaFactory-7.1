@@ -1354,11 +1354,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/CustomCommon/BWFileManagementAdditions.m"
-            timestampString = "394397348.912746"
+            timestampString = "402645256.508529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "-enumerateDirectoryComponentsFromURL:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1370,11 +1370,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/CustomCommon/BWFileManagementAdditions.m"
-            timestampString = "394397348.912746"
+            timestampString = "402645256.508529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "320"
-            endingLineNumber = "320"
+            startingLineNumber = "319"
+            endingLineNumber = "319"
             landmarkName = "-iterateThroughRootHierarchyWhileUpdatingRootArchives:WithDepth:AndDelegate:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1386,11 +1386,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/CustomCommon/BWFileManagementAdditions.m"
-            timestampString = "394397348.912746"
+            timestampString = "402645256.508529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "310"
-            endingLineNumber = "310"
+            startingLineNumber = "309"
+            endingLineNumber = "309"
             landmarkName = "-iterateThroughRootHierarchyWhileUpdatingRootArchives:WithDepth:AndDelegate:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1402,11 +1402,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/CustomCommon/BWFileManagementAdditions.m"
-            timestampString = "394397348.912746"
+            timestampString = "402645256.508529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
             landmarkName = "-parseTextFileAt:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1530,43 +1530,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/CustomCommon/BWFileManagementAdditions.m"
-            timestampString = "394397348.912746"
+            timestampString = "402645256.508529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "-resetLocalizedFactory"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Classes/CustomCommon/BWFileManagementAdditions.m"
-            timestampString = "394397348.912746"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "-resetLocalizedFactory"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Classes/CustomCommon/BWFileManagementAdditions.m"
-            timestampString = "394397348.912746"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "-resetLocalizedDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1578,11 +1546,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/CustomCommon/BWFileManagementAdditions.m"
-            timestampString = "394397348.912746"
+            timestampString = "402645256.508529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "-resetLocalizedDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1604,13 +1572,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/PremiseController.m"
-            timestampString = "400549227.723524"
+            timestampString = "402648715.205805"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "270"
-            endingLineNumber = "270"
+            startingLineNumber = "300"
+            endingLineNumber = "300"
             landmarkName = "-idea:"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PremiseController idea:]"
+                  moduleName = "IdeaFactory"
+                  urlString = "file://localhost/Users/Administrator/Documents/Development/XCode/IdeaFactory%207.1/Classes/PremiseController.m"
+                  timestampString = "402645642.948311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "270"
+                  endingLineNumber = "270"
+                  offsetFromSymbolStart = "130">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PremiseController idea:]"
+                  moduleName = "IdeaFactory"
+                  urlString = "file://localhost/Users/Administrator/Documents/Development/XCode/IdeaFactory%207.1/Classes/PremiseController.m"
+                  timestampString = "402645642.94862"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "270"
+                  endingLineNumber = "270"
+                  offsetFromSymbolStart = "584">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1620,11 +1618,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/PremiseController.m"
-            timestampString = "400549227.723524"
+            timestampString = "402648715.205805"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "851"
-            endingLineNumber = "851"
+            startingLineNumber = "896"
+            endingLineNumber = "896"
             landmarkName = "-makeCellChangeToState:atPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1636,11 +1634,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/PremiseController.m"
-            timestampString = "400549227.723524"
+            timestampString = "402648715.205805"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "853"
-            endingLineNumber = "853"
+            startingLineNumber = "898"
+            endingLineNumber = "898"
             landmarkName = "-makeCellChangeToState:atPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1652,11 +1650,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/PremiseController.m"
-            timestampString = "400549227.723524"
+            timestampString = "402648715.205805"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "855"
-            endingLineNumber = "855"
+            startingLineNumber = "900"
+            endingLineNumber = "900"
             landmarkName = "-makeCellChangeToState:atPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1668,11 +1666,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/PremiseController.m"
-            timestampString = "400549227.723524"
+            timestampString = "402648715.205805"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "856"
-            endingLineNumber = "856"
+            startingLineNumber = "901"
+            endingLineNumber = "901"
             landmarkName = "-makeCellChangeToState:atPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1684,12 +1682,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/PremiseController.m"
-            timestampString = "400549227.723524"
+            timestampString = "402648715.205805"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "857"
-            endingLineNumber = "857"
+            startingLineNumber = "902"
+            endingLineNumber = "902"
             landmarkName = "-makeCellChangeToState:atPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Classes/PremiseController.m"
+            timestampString = "402648715.205805"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "741"
+            endingLineNumber = "741"
+            landmarkName = "-shouldChangeToPresentationStateCellAtIndex:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Classes/PremiseController.m"
+            timestampString = "402648715.205805"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "743"
+            endingLineNumber = "743"
+            landmarkName = "-shouldChangeToPresentationStateCellAtIndex:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Classes/PremiseController.m"
+            timestampString = "402648715.205805"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "742"
+            endingLineNumber = "742"
+            landmarkName = "-shouldChangeToPresentationStateCellAtIndex:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

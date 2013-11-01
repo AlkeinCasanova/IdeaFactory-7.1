@@ -28,10 +28,9 @@
     NSURL * _bundle_locFactory=  [[NSBundle mainBundle]URLForResource:locFactory withExtension:nil];
 
     if ([fileMngr copyItemAtURL:_bundle_locFactory toURL:_libary_locFactory error:&error])
-        if (error) {
-            NSLog(@"%@",error);
-        }
-    [fileMngr moveItemAtURL:_libary_locFactory toURL:_library_Factory error:nil];
+        [fileMngr moveItemAtURL:_libary_locFactory toURL:_library_Factory error:&error];
+
+
 
 }
 
@@ -119,8 +118,8 @@
     NSError * error;
     NSString * content = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
     if (error) {
-        return [NSMutableArray array];
         NSLog(@"Error at parsing text file: %@. With error: %@",[url lastPathComponent],[error description]);
+        return [NSMutableArray array];
     }
     NSArray *parsed = [content componentsSeparatedByCharactersInSet:[NSCharacterSet newlineCharacterSet]];
 
